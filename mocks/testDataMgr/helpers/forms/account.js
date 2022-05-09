@@ -30,7 +30,7 @@ export const FIELD_NEWPASSWORDCONFIRM = `${PREFIX_LOGIN_FIELDS}_newpasswordconfi
  * @param {String} [profileFields.firstName] - Customer's first name
  * @param {String} [profileFields.lastName] - Customer's last name
  * @param {String} profileFields.email - Customer's email address
- * @param {String} profileFields.password - Customer's password
+ * @param {String} profileFields - Customer's
  * @returns {undefined}
  */
 export function editAccount(profileFields) {
